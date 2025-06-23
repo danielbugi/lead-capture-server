@@ -4,8 +4,10 @@
   "description": "Server for capturing leads from landing page",
   "main": "server-with-resend.js",
   "scripts": {
-    "start": "node server-with-resend.js",
-    "dev": "nodemon server-with-resend.js"
+    "start-resend": "node server-with-resend.js",
+    "start-gmail": "node server-with-gmail.js",
+    "dev-resend": "nodemon server-with-resend.js",
+    "dev-gmail": "nodemon server-with-gmail.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
